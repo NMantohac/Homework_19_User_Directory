@@ -15,9 +15,25 @@
         },
         "ecmaVersion": 2018
     },
+    "parser": "babel-eslint",
     "plugins": [
         "react"
     ],
     "rules": {
+        "arrow-body-style": ["off"],
+        "no-console": ["off"],
+        "no-use-before-define": ["off"],
+        "no-param-reassign": ["off"],
+        "no-else-return": ["off"],
+        "no-lonely-if": ["off"],
+        "operator-linebreak": ["off"],
+        "object-curly-newline": ["off"],
+        "object-shorthand": ["off"],
+        "func-names": ["off"],
+        "react/jsx-filename-extension": ["off"],
+        "react/state-in-constructor": ["off"],
+        "react/destructuring-assignment": ["off"],
+        "react/no-access-state-in-setstate": ["off"],
+        "react/prop-types": ["off"]
     }
 }

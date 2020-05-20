@@ -1,6 +1,6 @@
-import React from "react";
-import DataBody from "./DataBody";
-import "../styles/DataTable.css";
+import React from 'react';
+import DataBody from './DataBody';
+import '../styles/DataTable.css';
 
 function DataTable({ headings, users, handleSort }) {
   return (
@@ -22,7 +22,7 @@ function DataTable({ headings, users, handleSort }) {
                   }}
                 >
                   {name}
-                  <span className="pointer"></span>
+                  <span className="pointer" />
                 </th>
               );
             })}
