@@ -20,6 +20,7 @@
         "react"
     ],
     "rules": {
+        "linebreak-style": ["off"],
         "arrow-body-style": ["off"],
         "no-console": ["off"],
         "no-use-before-define": ["off"],
