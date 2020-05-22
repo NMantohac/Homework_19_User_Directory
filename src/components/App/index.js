@@ -1,11 +1,11 @@
 import React from 'react';
-import Main from './components/Main';
-import Wrapper from './components/Wrapper';
-import Header from './components/Header';
+import Main from '../Main';
+import Wrapper from '../Wrapper';
+import Header from '../Header';
 
-import './App.css';
+import './style.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Wrapper>
@@ -14,6 +14,6 @@ function App() {
       </Wrapper>
     </div>
   );
-}
+};
 
 export default App;

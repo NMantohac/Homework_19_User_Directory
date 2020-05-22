@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/DataBody.css';
+import './style.css';
 
-function DataBody({ users }) {
-  function formatDate(date) {
+const DataBody = ({ users }) => {
+  const formatDate = (date) => {
     const dateArray = date.split('-');
     const year = dateArray[0];
     const month = dateArray[1];
@@ -10,7 +10,7 @@ function DataBody({ users }) {
     const day = dayArray[0];
     const formattedDate = [month, day, year].join('-');
     return formattedDate;
-  }
+  };
 
   return (
     <tbody>
@@ -47,6 +47,6 @@ function DataBody({ users }) {
       )}
     </tbody>
   );
-}
+};
 
 export default DataBody;
