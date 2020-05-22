@@ -6,6 +6,8 @@
 
   2) Netlify: https://nmantohac-user-directory.netlify.app/
   
+  3) Overall Function: https://drive.google.com/file/d/1OqnhyxP9kH3o4Nqwjl3cG_mzlxNYxckJ/view
+   
 ## Description
 
 * A user/employee directory that allows the user to view an entire list of employees and provides quick access to their information.
@@ -46,6 +48,3 @@
 
 * User Directory - Home Page:
 ![User Directory - Home Page:](https://puu.sh/FNFop/665eeda122.png)
-
-* User Directory - Filter Function:
-![User Directory - Filter Function:](https://puu.sh/FNFwz/4a320d0f63.gif)
