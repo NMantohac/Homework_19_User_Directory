@@ -16,7 +16,7 @@ class DataArea extends Component {
     { name: 'Name', width: '10%' },
     { name: 'Phone', width: '20%' },
     { name: 'Email', width: '20%' },
-    { name: 'DOB', width: '10%' },
+    { name: 'Date of Birth', width: '10%' },
   ]
 
   componentDidMount() {
@@ -71,7 +71,6 @@ class DataArea extends Component {
   }
 
   handleSearchChange = (event) => {
-    console.log(event.target.value);
     const filter = event.target.value;
     const filteredList = this.state.users.filter((item) => {
       // merge data together, then see if user input is anywhere inside

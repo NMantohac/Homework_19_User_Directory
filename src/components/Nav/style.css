@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.filter-title {
+  margin-right: 15px;
+  font-size: 32px;
+}
+
 .navbar-collapse {
   margin: 0 auto;
   justify-content: center;
