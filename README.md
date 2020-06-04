@@ -2,7 +2,7 @@
 
 ## URL Links
 
-  1) GitHub: https://github.com/NMantohac/Homework_17_Fitness_Tracker
+  1) GitHub: https://github.com/NMantohac/User-Directory
 
   2) Netlify: https://nmantohac-user-directory.netlify.app/
   
